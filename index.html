@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Noto+Serif+Bengali:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Noto+Serif+Bengali:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
     <style>
@@ -34,7 +34,7 @@
         --bg: #f4f1ec;
         --ink: #0f0d0a;
         --ink2: #3a3530;
-        --ink3: #7a7368;
+        --ink3: #4e4942;
         --accent: #1a6b3c;
         --line: rgba(15, 13, 10, 0.1);
         --line2: rgba(15, 13, 10, 0.05);
@@ -199,9 +199,10 @@
         line-height: 1.2;
       }
       .logo-text span {
+        font-family: "Noto Serif Bengali", serif;
         display: block;
         font-size: 0.65rem;
-        font-weight: 400;
+        font-weight: 700;
         color: var(--ink3);
         letter-spacing: 0.12em;
         margin-top: 2px;
@@ -741,7 +742,7 @@
 
         /* clock adjustments */
         .clock-num {
-          font-size: clamp(2.2rem, 8vw, 3rem);
+          font-size: 3.8rem;
         }
         .clock-sep {
           font-size: clamp(1.5rem, 5vw, 2.2rem);
@@ -761,7 +762,7 @@
           font-size: 1.8rem;
         }
         .clock-num {
-          font-size: 1.8rem;
+          font-size: 3.2rem;
         }
         .clock-sep {
           font-size: 1.2rem;
@@ -817,7 +818,7 @@
               class="form-input"
               type="email"
               id="emailInput"
-              placeholder="আপনার ইমেইল ঠিকানা"
+              placeholder="আপনার ইমেইল ঠিকানা লিখুন"
             />
             <button class="form-btn" onclick="handleNotify()">Notify Me</button>
           </div>
